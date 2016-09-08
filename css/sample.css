@@ -256,7 +256,6 @@ h1 {
   #sub_cover h2 {
     text-align: center;
     color: white;
-    font-size: 16px;
     font-size: 1.6rem;
     font-weight: bold;
     margin: 0;
@@ -325,8 +324,7 @@ h3 {
     #sub_cover h2 {
       text-align: center;
       color: white;
-      font-size: 16px;
-      font-size: 1.6rem;
+      font-size: 3.2rem;
       font-weight: bold;
       margin: 0;
       letter-spacing: 0.2rem; }
@@ -349,6 +347,9 @@ h3 {
   #contents #main .news_li li {
     list-style: none;
     padding-bottom: 5px; } }
+@media (max-width: 550px) {
+  #contents #sidebar .pc_sidemenu {
+    display: none; } }
 /* ここから下はcompany.html */
 #contents #main th {
   padding-right: 20px; }
